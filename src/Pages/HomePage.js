@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import FacebookIcon from '@material-ui/icons/Facebook';
+import LinkedIn from '@material-ui/icons/LinkedIn';
 import GithubIcon from '@material-ui/icons/GitHub';
 import YoutubeIcon from '@material-ui/icons/YouTube';
 import Particle from '../Components/Particle';
@@ -12,20 +12,19 @@ function HomePage() {
                 <Particle />
             </div>
             <div className="typography">
-                <h1>Hi, I'm <span>Lorem Ipsum</span></h1>
+                <h1>Hi, I'm <span>Prakhar Chauhan</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Atque nihil voluptates ea dolore vel 
-                    repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet.
+                    A full-stack developer and currently building my projects
+                    on Web3. 
                 </p>
                 <div className="icons">
-                    <a href="https://codepen.io/pen/" className="icon i-facebook">
-                        <FacebookIcon />
+                    <a href="https://www.linkedin.com/in/prakhar-chauhan-8a8283199/" className="icon i-facebook">
+                        <LinkedIn />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-github">
+                    <a href="https://github.com/chauhanprakhar" className="icon i-github">
                         <GithubIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-youtube">
+                    <a href="https://www.youtube.com/channel/UCPzmQ3KSaHNt8FmFBVvcaqw" className="icon i-youtube">
                         <YoutubeIcon />
                     </a>
                 </div>

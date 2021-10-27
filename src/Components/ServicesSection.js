@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import {InnerLayout} from '../styles/Layouts';
 import Title from '../Components/Title';
 import ServiceCard from '../Components/ServiceCard';
-import design from '../img/design.svg';
-import intelligence from '../img/intelligence.svg';
-import gamedev from '../img/game-dev.svg';
+// import design from '../img/design.svg';
+// import intelligence from '../img/intelligence.svg';
+// import gamedev from '../img/game-dev.svg';
 
 function ServicesSection() {
     return (
@@ -14,19 +14,19 @@ function ServicesSection() {
                 <Title title={'Services'} span={'services'} />
                 <div className="services">
                     <ServiceCard 
-                        image={design} 
+                        // image={design} 
                         title={'Web Dev'} 
                         paragraph={'My web development tech stack includes Reactjs, Express.js, Nodejs, MongoDB. Apart of these I have experience in GraphQL and SQL'}
                     />
                     <div className="mid-card">
                         <ServiceCard 
-                            image={intelligence} 
+                            // image={intelligence} 
                             title={'App Development'} 
                             paragraph={'I am experienced in app development using Flutter framework. I can build optimized mobile application which can be used in Android and IOS'}
                         />
                     </div>
                     <ServiceCard 
-                        image={gamedev} 
+                        // image={gamedev} 
                         title={'Blockchain'} 
                         paragraph={'Blockchain is the thing which really excites me. I love working on projects of blockchain specially which revolves around NFTs and gaming.'}
                     />
