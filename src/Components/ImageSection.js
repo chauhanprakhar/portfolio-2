@@ -13,7 +13,7 @@ function ImageSection() {
                 <h4>I am <span>Prakhar</span></h4>
                 <p className="paragraph">
                 Hi there! I am a full-stack(MERN) developer and a beginner in the field of blockchain(Web3, truffle, solidity, infura ).
-                My other interests includes gaming and crypto gambling. I love watching anime and hentai.
+                My other interests includes gaming and crypto gambling. I love watching anime and football.
                 </p>
                 <div className="about-info">
                     <div className="info-title">
