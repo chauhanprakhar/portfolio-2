@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components';
 import LinkedIn from '@material-ui/icons/LinkedIn';
 import GithubIcon from '@material-ui/icons/GitHub';
-import YoutubeIcon from '@material-ui/icons/YouTube';
 import Particle from '../Components/Particle';
 
 function HomePage() {
@@ -23,9 +22,6 @@ function HomePage() {
                     </a>
                     <a href="https://github.com/chauhanprakhar" className="icon i-github">
                         <GithubIcon />
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCPzmQ3KSaHNt8FmFBVvcaqw" className="icon i-youtube">
-                        <YoutubeIcon />
                     </a>
                 </div>
             </div>

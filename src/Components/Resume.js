@@ -18,6 +18,12 @@ function Resume() {
                     <SmallTitle icon={briefcase} title={'Working Experience'} />
                 </div>
                 <div className="resume-content">
+                <ResumeItem 
+                        year={'February,2022 - July,2022'} 
+                        title={'Full-Stack Blockchain Intern'}
+                        subTitle={'Jarvis Labs LLC'}
+                        text={'Worked as a Web3 and full-stack engineer.'} 
+                    />
                     <ResumeItem 
                         year={'August,2021 - October,2021'} 
                         title={'SDE Intern'}
