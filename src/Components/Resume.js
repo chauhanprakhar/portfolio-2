@@ -19,10 +19,16 @@ function Resume() {
                 </div>
                 <div className="resume-content">
                 <ResumeItem 
-                        year={'February,2022 - July,2022'} 
+                        year={'January,2023 - Present'} 
+                        title={'Software Engineer'}
+                        subTitle={'GEP Worldwide'}
+                        text={'Worked on Migration of Spend Analytics Module into a low-code platform, thereby increasing the usability and user experience of the application.'} 
+                    />
+                <ResumeItem 
+                        year={'Feb,2022 - July,2022'} 
                         title={'Full-Stack Blockchain Intern'}
                         subTitle={'Jarvis Labs LLC'}
-                        text={'Worked as a Web3 and full-stack engineer.'} 
+                        text={'Developed crypto data management application using React, enabling users to organize and track their portfolios.'} 
                     />
                     <ResumeItem 
                         year={'August,2021 - October,2021'} 
@@ -41,7 +47,7 @@ function Resume() {
                 </div>
                 <div className="resume-content ">
                     <ResumeItem 
-                        year={'2019 - Present'} 
+                        year={'2019 - 2023'} 
                         title={'Btech in Computer Science'}
                         subTitle={'Indian Institute of Information Technology Vadodara, Gandhinagar'}
                         text={'Completed studying major subjects like Operating Systems, Database Management System, Computer Programming, Computer Networks and other core subjects.'} 

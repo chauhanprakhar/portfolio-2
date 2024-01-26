@@ -13,8 +13,7 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi, I'm <span>Prakhar Chauhan</span></h1>
                 <p>
-                    A full-stack developer and currently building my projects
-                    on Web3. 
+                I have done my graduation from the Indian Institute of Information Technology Vadodara in Computer Science. I am currently working as a Software Engineer at GEP Worldwide with Angular, .NET, MongoDB, SQL Server, and TypeScript Stack. Apart from this tech stack, I have also worked with other techs during my various internships including Python, Flutter, Node, React, and AWS. I have got a good hold on DSA and CS Subjects as well.
                 </p>
                 <div className="icons">
                     <a href="https://www.linkedin.com/in/prakhar-chauhan-8a8283199/" className="icon i-facebook">

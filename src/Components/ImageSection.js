@@ -10,10 +10,16 @@ function ImageSection() {
                 <img src={resume} alt=""/>
             </div>
             <div className="right-content">
-                <h4>I am <span>Prakhar</span></h4>
+                {/* <h4>I am <span>Prakhar</span></h4> */}
                 <p className="paragraph">
-                Hi there! I am a full-stack(MERN) developer and a beginner in the field of blockchain(Web3, truffle, solidity, infura ).
-                My other interests includes gaming and crypto gambling. I love watching anime and football.
+                Over the course of my career, I've embraced the dynamic world of startups, each offering unique challenges and opportunities
+                 across a wide spectrum of technologies and industries. From my early days in programming, where I honed 
+                 my skills in back-end services with Node.js, and other frameworks to my venture into startups, where I 
+                 tackled complex financial data analysis using Python and established secure API integrations, 
+                 and later in Media Sharing, where I delved into backend development
+                 each startup experience has enriched my skill set and broadened my perspective.
+                  My journey has not only fostered adaptability and rapid learning but also instilled a passion for 
+                  leveraging technology to address diverse business needs
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -26,14 +32,14 @@ function ImageSection() {
                     </div>
                     <div className="info">
                         <p>: Prakhar Chauhan</p>
-                        <p>: 21</p>
+                        <p>: 24</p>
                         <p>: Indian</p>
                         <p>: English, Hindi</p>
-                        <p>: Ahmedabad, Gujarat</p>
+                        <p>: Hyderabad</p>
                         <p>: Freelance</p>
                     </div>
                 </div>
-                <a href="https://drive.google.com/file/d/14iGyW1UoDxz7-QMm4A-GFTujX5SH_GDH/view?usp=sharing"><PrimaryButton title={'Download Cv'} /></a>
+                <a href="https://drive.google.com/file/d/19vXKVeOwgd-U1JptjWSq0liixNOi0IPn/view?usp=sharing"><PrimaryButton title={'Download Cv'} /></a>
             </div>
         </ImageSectionStyled>
     )

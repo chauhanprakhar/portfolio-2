@@ -30,7 +30,7 @@ function Navigation() {
                 </li>
             </ul>
             <footer className="footer">
-                <p>@2021 <b>Prakhar Chauhan</b></p>
+                <p>@2024 <b>Prakhar Chauhan</b></p>
             </footer>
         </NavigationStyled>
     )

@@ -11,36 +11,15 @@ const blogs = [
         link: "https://medium.com/codex/difference-between-graphql-and-rest-e3b0ded30382",
         month: 'April',
         image: blog1
+    },
+    {
+        id: 2,
+        title: 'Reliable, Scalable, and Maintainable Applications',
+        date: '01',
+        link: "https://medium.com/@chauhanprakhar/reliable-scalable-and-maintainable-applications-bac9679a48ff",
+        month: 'April',
+        image: blog1
     }
-    // {
-    //     id: 2,
-    //     title: 'How To Use SEO Efficiently',
-    //     date: '01',
-    //     month: 'April',
-    //     image: blog2
-    // },
-    // {
-    //     id: 3,
-    //     title: 'How to choose a programming Language',
-    //     date: '01',
-    //     month: 'April',
-    //     image: blog3,
-    //     link: 'https://www.google.co.uk/'
-    // },
-    // {
-    //     id: 4,
-    //     title: 'How To Tse SEO Efficiently',
-    //     date: '01',
-    //     month: 'April',
-    //     image: blog4
-    // },
-    // {
-    //     id: 5,
-    //     title: 'How To Tse SEO Efficiently',
-    //     date: '01',
-    //     month: 'April',
-    //     image: blog4
-    // }
 ]
 
 export default blogs;

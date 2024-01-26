@@ -5,13 +5,11 @@ import Title from '../Components/Title';
 import PrimaryButton from '../Components/PrimaryButton';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ContactItem from '../Components/ContactItem';
 
 function ContactPage() {
     const phone = <PhoneIcon />
     const email = <EmailIcon />
-    const location = <LocationOnIcon />
     return (
         <MainLayout>
             <Title title={'Contact'} span={'Contact'} />
@@ -46,7 +44,7 @@ function ContactPage() {
                 <div className="right-content">
                     <ContactItem title={'Phone'} icon={phone} cont1={'+91-8979792355'} cont2={'7248592735'} />
                     <ContactItem title={'Email'} icon={email} cont1={'chauhanprakhar175@gmail.com'} cont2={'201951116@iiitvadodara.ac.in'} />
-                    <ContactItem title={'Address'} icon={location} cont1={'Rajlabdhi Heritage, Koba, Gandhinagar'} cont2={'India'} />
+                    {/* <ContactItem title={'Address'} icon={location} cont1={'Rajlabdhi Heritage, Koba, Gandhinagar'} cont2={'India'} /> */}
                     
                 </div>
             </InnerLayout>
